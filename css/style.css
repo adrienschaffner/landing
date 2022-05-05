@@ -1,0 +1,109 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('../css/components/btn.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner{
+  background-size: 70vh;
+  background-image: url(https://arthur-littm.github.io/startup-landing/images/background.png);
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+.container{
+  width: 900px;
+  margin: auto;
+  display: block;
+}
+
+.container h1{
+  color: white;
+  font-size: 2em;
+}
+
+.container h2{
+  display: block;
+  font-size: 1.5em;
+}
+
+.container p{
+  color: grey;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card{
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  display: block;
+}
+
+.card img {
+  height: 100px;
+}
+
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-links {
+  display: inline-block;
+  align-items: center;
+  margin: 10px;
+}
+
+.footer-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+.footer-links a {
+  color:#1CDD87;
+  font-size: 32px;
+}
+
+.footer p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
